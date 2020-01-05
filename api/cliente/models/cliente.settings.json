@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "clientes",
   "info": {
     "name": "Cliente"
   },
@@ -9,8 +11,24 @@
   "attributes": {
     "nome": {
       "type": "string"
+    },
+    "telefone": {
+      "type": "string"
+    },
+    "endereco": {
+      "type": "text"
+    },
+    "cidade": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "cep": {
+      "type": "string"
+    },
+    "cpf": {
+      "type": "string"
     }
-  },
-  "connection": "default",
-  "collectionName": "clientes"
+  }
 }
