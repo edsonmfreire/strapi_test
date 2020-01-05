@@ -1,0 +1,43 @@
+{
+  "connection": "default",
+  "collectionName": "pedidos",
+  "info": {
+    "name": "Pedido"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "numero": {
+      "type": "string"
+    },
+    "cpf": {
+      "type": "string"
+    },
+    "item1": {
+      "type": "string"
+    },
+    "item2": {
+      "type": "string"
+    },
+    "item3": {
+      "type": "string"
+    },
+    "item4": {
+      "type": "string"
+    },
+    "item5": {
+      "type": "string"
+    },
+    "total": {
+      "type": "decimal"
+    },
+    "data": {
+      "type": "string"
+    },
+    "chegada": {
+      "type": "string"
+    }
+  }
+}
