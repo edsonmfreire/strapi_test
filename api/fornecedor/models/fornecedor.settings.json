@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "fornecedors",
   "info": {
     "name": "Fornecedor"
   },
@@ -11,7 +13,7 @@
       "type": "string"
     },
     "telefone": {
-      "type": "integer"
+      "type": "biginteger"
     },
     "endereco": {
       "type": "string"
@@ -25,7 +27,5 @@
     "cep": {
       "type": "string"
     }
-  },
-  "connection": "default",
-  "collectionName": "fornecedors"
+  }
 }
